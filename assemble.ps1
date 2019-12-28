@@ -3,7 +3,7 @@ New-Item -Force -Name bin -Type Directory
 # remove existing blobs because otherwise this will append object files to the old blobs
 Remove-Item -Force bin/*.a
 
-$crate = "xous-riscv"
+$crate = "vexriscv"
 
 riscv64-unknown-elf-gcc -c -mabi=ilp32 -march=rv32imac asm.S -o bin/$crate.o
 riscv64-unknown-elf-ar crs bin/riscv32imac-unknown-none-elf.a bin/$crate.o
