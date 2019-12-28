@@ -1,11 +1,11 @@
 [package]
-name = "riscv"
-version = "0.5.4"
-repository = "https://github.com/rust-embedded/riscv"
-authors = ["The RISC-V Team <risc-v@teams.rust-embedded.org>"]
-categories = ["embedded", "hardware-support", "no-std"]
-description = "Low level access to RISC-V processors"
-keywords = ["riscv", "register", "peripheral"]
+name = "vexriscv"
+version = "0.0.1"
+repository = "https://github.com/xobs/vexriscv-rust"
+authors = ["Sean Cross <sean@xobs.io>", "The RISC-V Team <risc-v@teams.rust-embedded.org>"]
+categories = ["embedded", "hardware-support", "no-std", "vexriscv"]
+description = "Low level access to the VexRiscv processor"
+keywords = ["riscv", "register", "peripheral", "vexriscv"]
 license = "ISC"
 
 [dependencies]

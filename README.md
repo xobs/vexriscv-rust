@@ -1,17 +1,18 @@
-[![crates.io](https://img.shields.io/crates/d/riscv.svg)](https://crates.io/crates/riscv)
-[![crates.io](https://img.shields.io/crates/v/riscv.svg)](https://crates.io/crates/riscv)
-[![Build Status](https://travis-ci.org/rust-embedded/riscv.svg?branch=master)](https://travis-ci.org/rust-embedded/riscv)
+[![crates.io](https://img.shields.io/crates/d/riscv.svg)](https://crates.io/crates/vexriscv)
+[![crates.io](https://img.shields.io/crates/v/riscv.svg)](https://crates.io/crates/vexriscv)
+[![Build Status](https://travis-ci.org/rust-embedded/riscv.svg?branch=master)](https://travis-ci.org/xobs/vexriscv)
 
-# `riscv`
+# `veriscv`
 
-> Low level access to RISC-V processors
+> Low level access to parts of the VexRiscv RISC-V processor
 
-This project is developed and maintained by the [RISC-V team][team].
+This project is derived from [riscv](https://github.com/rust-embedded/riscv), developed and maintained by the [RISC-V team][team].
 
-## [Documentation](https://docs.rs/crate/riscv)
+## [Documentation](https://docs.rs/crate/vexriscv)
 
 ## License
 
+Copyright 2020 Sean "xobs" Cross
 Copyright 2019 [RISC-V team][team]
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
