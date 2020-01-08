@@ -107,3 +107,10 @@ pub use self::mhpmeventx::*;
 
 
 // TODO: Debug Mode Registers
+
+// Vexriscv Registers
+pub mod vdci;
+pub mod vmim;
+pub mod vmip;
+pub mod vsim;
+pub mod vsip;
