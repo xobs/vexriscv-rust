@@ -1,3 +1,5 @@
+#![allow(unused_macros)]
+
 macro_rules! read_csr {
     ($csr_number:expr, $asm_fn: ident) => {
         /// Reads the CSR
