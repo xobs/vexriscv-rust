@@ -40,31 +40,7 @@ __clear_ ## name: \
 #define RW32(offset, name)
 #define RO32(offset, name)
 #endif
-// ----------------------- //
 
-.section .text.__ebreak
-.global __ebreak
-__ebreak:
-    ebreak
-    ret
-
-.section .text.__wfi
-.global __wfi
-__wfi:
-    wfi
-    ret
-
-.section .text.__sfence_vma_all
-.global __sfence_vma_all
-__sfence_vma_all:
-    sfence.vma
-    ret
-
-.section .text.__sfence_vma
-.global __sfence_vma
-__sfence_vma:
-    sfence.vma a0, a1
-    ret
 
 // User Trap Setup
 RW(0x000, ustatus)  // User status register
