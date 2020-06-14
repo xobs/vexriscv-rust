@@ -44,7 +44,7 @@ __clear_ ## name: \
 
 // VexRiscv custom registers
 RW(0xBC0, vmim)     // Machine IRQ Mask
-RW(0xFC0, vmip)     // Machine IRQ Pending
+RO(0xFC0, vmip)     // Machine IRQ Pending
 RW(0x9C0, vsim)     // Supervisor IRQ Mask
-RW(0xDC0, vsip)     // Supervisor IRQ Pending
-RW(0xCC0, vdci)     // DCache Info
+RO(0xDC0, vsip)     // Supervisor IRQ Pending
+RO(0xCC0, vdci)     // DCache Info
