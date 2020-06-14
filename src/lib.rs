@@ -18,7 +18,4 @@
 #![no_std]
 #![cfg_attr(feature = "inline-asm", feature(asm))]
 
-extern crate bare_metal;
-extern crate bit_field;
-
 pub mod register;
