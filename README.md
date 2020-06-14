@@ -2,11 +2,12 @@
 [![crates.io](https://img.shields.io/crates/v/vexriscv.svg)](https://crates.io/crates/vexriscv)
 [![Build Status](https://travis-ci.org/xobs/vexriscv-rust.svg?branch=master)](https://travis-ci.org/xobs/vexriscv-rust)
 
-# `veriscv`
+# `vexriscv`
 
 > Low level access to parts of the VexRiscv RISC-V processor
 
-This project is derived from [riscv](https://github.com/rust-embedded/riscv), developed and maintained by the [RISC-V team][team].
+This project complements [riscv](https://github.com/rust-embedded/riscv),
+which is developed and maintained by the [RISC-V team][team].
 
 ## [Documentation](https://docs.rs/crate/vexriscv)
 
