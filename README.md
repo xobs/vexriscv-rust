@@ -1,6 +1,6 @@
-[![crates.io](https://img.shields.io/crates/d/riscv.svg)](https://crates.io/crates/vexriscv)
-[![crates.io](https://img.shields.io/crates/v/riscv.svg)](https://crates.io/crates/vexriscv)
-[![Build Status](https://travis-ci.org/rust-embedded/riscv.svg?branch=master)](https://travis-ci.org/xobs/vexriscv)
+[![crates.io](https://img.shields.io/crates/d/vexriscv.svg)](https://crates.io/crates/vexriscv)
+[![crates.io](https://img.shields.io/crates/v/vexriscv.svg)](https://crates.io/crates/vexriscv)
+[![Build Status](https://travis-ci.org/xobs/vexriscv-rust.svg?branch=master)](https://travis-ci.org/xobs/vexriscv-rust)
 
 # `veriscv`
 
