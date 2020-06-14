@@ -8,9 +8,5 @@ description = "Low level access to the VexRiscv processor"
 keywords = ["riscv", "register", "peripheral", "vexriscv"]
 license = "ISC"
 
-[dependencies]
-bare-metal = ">=0.2.0,<0.2.5"
-bit_field = "0.9.0"
-
 [features]
 inline-asm = []
