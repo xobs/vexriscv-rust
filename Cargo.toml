@@ -1,6 +1,6 @@
 [package]
 name = "vexriscv"
-version = "0.0.2"
+version = "0.0.3"
 repository = "https://github.com/xobs/vexriscv-rust"
 authors = ["Sean Cross <sean@xobs.io>", "The RISC-V Team <risc-v@teams.rust-embedded.org>"]
 categories = ["embedded", "hardware-support", "no-std"]
